@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  QQ音乐播放器
+//
+//  Created by 申颖 on 16/1/11.
+//  Copyright © 2016年 Ying. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+
+#import "Masonry.h"
+#import "MJExtension.h"
+#import "SYConst.h"
+
+#endif /* PrefixHeader_pch */
